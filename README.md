@@ -1,8 +1,23 @@
-# React + Vite
+ALAB 320H.9.1 - Building a Todo 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Your todo list application must have:
 
-Currently, two official plugins are available:
+A heading labeling it as a "todo list."
+A list of "todo" items, which are strings listing activities to be accomplished (e.g. "find that missing sock"). Each "todo" item should have:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A checkbox next to it which indicates whether it is "complete."
+A "delete" button next to it which removes it from the list.
+
+The "delete" button should be disabled unless the todo is complete!
+An "edit" button that replaces the todo string with a text input used to edit the todo.
+
+Hint: bind the value of this text input to a piece of state so that it is always accurate, even when first displayed!
+When this text input is active, the "delete" and "edit" buttons should be hidden, and a "save" button should appear. The "save" button should save any changes made to the todo within the text input.
+An input element that creates new todo items and adds them to the list.
+New todos should be added to the top of the list visually; the oldest todos should be at the bottom.
+
+Current Status:
+-Still working on the edit function, because it's buggin'.
+-Adding more style, time permitting.
+-Looking into the API fetching
+
