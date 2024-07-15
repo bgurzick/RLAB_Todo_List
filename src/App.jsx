@@ -6,7 +6,11 @@ function App() {
 
   return (
     <>
-      <h1>Todo List useReducer Style!</h1>
+      <div className='container'>
+        <h1>To-Do List</h1>
+        <h2>Today is <span id='currentDate'></span></h2>
+      {/* state and toggle and actions  */}
+    </div>
     </>
   )
 }
