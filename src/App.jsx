@@ -1,7 +1,7 @@
 import React, { useReducer, useState, useEffect } from 'react';
 import TodoInput from './components/TodoInput';
 import TodoList from './components/TodoList';
-import './App.css'; // Import your CSS file for styling
+import './App.css';
 
 const initialState = {
   todos: [],
