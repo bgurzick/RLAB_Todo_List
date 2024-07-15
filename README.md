@@ -16,4 +16,8 @@ When this text input is active, the "delete" and "edit" buttons should be hidden
 An input element that creates new todo items and adds them to the list.
 New todos should be added to the top of the list visually; the oldest todos should be at the bottom.
 
+Current Status:
+-Still working on the edit function, because it's buggin'.
+-Adding more style, time permitting.
+-Looking into the API fetching
 
