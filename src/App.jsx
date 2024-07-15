@@ -1,8 +1,11 @@
+import React from 'react'
 import { useState, useReducer } from 'react'
 import './App.css'
+import ToDoList from './components/ToDoList'
+
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [state, dispatch] = useReducer(reducer, )
 
   return (
     <>
