@@ -1,4 +1,5 @@
 import React from 'react';
+import '../App.css';
 
 const TodoList = ({ todos, toggleTodo, startEdit, saveEdit, cancelEdit, deleteTodo, editingId, editText }) => {
   return (
